@@ -51,6 +51,14 @@ footer {
 	
 }
 
+/* MEDIA QUERIES PARA ORIENTACIÓN VERTICAL */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+}
+/* MEDIA QUERIES PARA ORIENTACIÓN HORIZONTAL */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	
+}
 
 @media  (max-width: 767px ) and (min-width: 481px)  {
 
