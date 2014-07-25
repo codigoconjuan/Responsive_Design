@@ -1,0 +1,154 @@
+body {
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+div.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	height: 120px;
+	margin-bottom: 20px;
+}
+header .logo {
+	width: 300px;
+	float: left;
+	height: 100%;
+	background-color: #e1e1e1;
+	background-image: url(../img/logo.svg);
+	background-position: top left;
+}
+header nav {
+	width: 680px;
+	float: right;
+	height: 100%;
+	background-color: #e1e1e1;
+}
+nav ul {
+	list-style: none;
+	margin-top: 30px;
+
+}
+nav ul li {
+	float: left;
+	margin-left: 30px;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+
+section {
+	width: 750px;
+	height: 300px;
+	float: left;
+	background-color: #e1e1e1;
+}
+aside {
+	width: 230px;
+	height: 300px;
+	float: right;
+	background-color: #e1e1e1;
+}
+
+footer {
+	height: 200px;
+	background-color: #e1e1e1;
+	margin-top: 20px;
+}
+
+/* DE AQUI EN ADELANTE ES NUEVO */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+	body {
+		background-color: green;
+		font-size: 20px;
+	}
+	div.container {
+		width: 900px;
+	}
+	header .logo {
+		width: 250px;
+		background-image: url(../img/logo.svg);
+		background-position: -322px 0;
+	}
+	header nav  {
+		width: 630px;
+	}
+	section {
+		width: 630px;
+	}
+	aside {
+		width: 250px;
+	}
+}
+
+
+@media  (max-width: 767px ) and (min-width: 481px)  {
+	body {
+		background-color: blue;
+		font-size: 30px;
+	}
+	div.container {
+		width: 600px;
+	}
+	header .logo {
+		width: 100px;
+		background-image: url(../img/logo.svg);
+		background-position: -707px 0;
+	}
+	header nav  {
+		width: 480px;
+	}
+	section {
+		width: 380px;
+	}
+	aside {
+		width: 200px;
+	}
+}
+
+@media  (max-width: 480px ) {
+	body {
+		background-color: red;
+		font-size: 40px;
+	}
+	div.container,
+	header .logo,
+	header nav,
+	section,
+	aside {
+		width: 400px;
+		margin-bottom: 10px;
+	}
+	header .logo {
+		height: 100px;
+		background-image: url(../img/logo.svg);
+		background-position: -848px 0;
+	}
+	header {
+		height: auto;
+	}
+	nav ul {
+		padding: 0;
+		margin:0;
+	}
+	nav ul li  {
+		width: 300px;
+		float:none;
+		text-align: center;
+	}
+
+	section {
+		text-align: center;
+	}
+	aside {
+		display: none;
+	}
+
+
+}
