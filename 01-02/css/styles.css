@@ -44,3 +44,20 @@ footer {
 	background-color: #e1e1e1;
 	margin-top: 20px;
 }
+
+/* DE AQUI EN ADELANTE ES NUEVO */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+	
+}
+
+
+@media  (max-width: 767px ) and (min-width: 481px)  {
+
+}
+
+
+
+@media  (max-width: 480px ) {
+
+}
