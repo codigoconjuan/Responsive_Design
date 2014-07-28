@@ -1,0 +1,6 @@
+    #Begin user agent loop fix
+
+         RewriteEngine Off
+         RewriteBase /
+
+    #End user agent loop fix 

@@ -1,0 +1,169 @@
+body {
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+div.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	height: 120px;
+	margin-bottom: 20px;
+}
+header .logoWrap {
+	height: 100%;
+	width: 300px;
+	float: left;
+	background-color: #e1e1e1;
+}
+header .logo {
+	height: 100%;
+	background-image: url(../img/logo.svg);
+	background-position: top left;
+}
+header nav {
+	width: 680px;
+	float: right;
+	height: 100%;
+	background-color: #e1e1e1;
+}
+nav ul {
+	list-style: none;
+	margin-top: 30px;
+
+}
+nav ul li {
+	float: left;
+	margin-left: 30px;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+
+section {
+	width: 750px;
+	height: 300px;
+	float: left;
+	background-color: #e1e1e1;
+}
+aside {
+	width: 230px;
+	height: 300px;
+	float: right;
+	background-color: #e1e1e1;
+}
+
+footer {
+	height: 200px;
+	background-color: #e1e1e1;
+	margin-top: 20px;
+}
+
+/* DE AQUI EN ADELANTE ES NUEVO */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+	body {
+		background-color: green;
+		font-size: 20px;
+	}
+	div.container {
+		width: 900px;
+	}
+	header .logoWrap {
+		width: 250px;
+	}
+	header .logo {
+		
+		background-image: url(../img/logo.svg);
+		background-position: -322px 0;
+	}
+	header nav  {
+		width: 630px;
+	}
+	section {
+		width: 630px;
+	}
+	aside {
+		width: 250px;
+	}
+}
+
+
+@media  (max-width: 767px ) and (min-width: 481px)  {
+	body {
+		background-color: blue;
+		font-size: 30px;
+	}
+	div.container {
+		width: 600px;
+	}
+	header .logoWrap {
+		width: 100px
+	}
+	header .logo {
+		background-image: url(../img/logo.svg);
+		background-position: -707px 0;
+	}
+	header nav  {
+		width: 480px;
+	}
+	section {
+		width: 380px;
+	}
+	aside {
+		width: 200px;
+	}
+}
+
+
+
+@media  (max-width: 480px ) {
+	body {
+		background-color: red;
+		font-size: 40px;
+	}
+	div.container,
+	header .logoWrap,
+	header nav,
+	section,
+	aside {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.logoWrap {
+		text-align: center;
+	}
+	header .logo {
+		height: 100px;
+		width: 200px;
+		background-image: url(../img/logo.svg);
+		background-position: -928px 0;
+		margin: 0 auto;
+	}
+	header {
+		height: auto;
+	}
+	nav ul {
+		padding: 0;
+		margin:0;
+	}
+	nav ul li  {
+		width: auto;
+		float:none;
+		text-align: center;
+	}
+
+	section {
+		text-align: center;
+	}
+	aside {
+		display: none;
+	}
+
+
+}
