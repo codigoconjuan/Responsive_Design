@@ -116,7 +116,7 @@ nav.navegacion ul li a {
   font-size: 1.4em;
   text-decoration: none;
   padding: 0 10px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 header {
@@ -285,7 +285,7 @@ form.formulario {
   width:80%;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   border-radius: 20px;
 }
 form.formulario .campoTexto {
@@ -527,7 +527,7 @@ textarea[contenteditable] {
     }
     nav.navegacion ul li a {
       padding: 0 10px;
-      box-sizing: content-box;
+      box-sizing: border-box;
     }
     section.galeria {
        width:33%;
