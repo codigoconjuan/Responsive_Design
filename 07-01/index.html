@@ -43,7 +43,9 @@
         -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/lightbox.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
@@ -80,7 +82,12 @@
         <div class="contenedor">
 
                 <section id="slider" class="slider">
-                         <img src="img/slider_1.png" alt="Imagen Slider">
+                        <ul class="bxslider">
+                          <li><img src="img/slider1.jpg" /></li>
+                          <li><img src="img/slider2.jpg" /></li>
+                          <li><img src="img/slider3.jpg" /></li>
+                          <li><img src="img/slider4.jpg" /></li>
+                        </ul>
                 </section>
 
         </div>
@@ -118,13 +125,24 @@
                 <section id="galeria" class="galeria">
 
                         <h2>Galería de imagenes</h2>
-
-                        <img src="img/galeria_1.png" alt="">
-                        <img src="img/galeria_2.png" alt="">
-                        <img src="img/galeria_3.png" alt="">
-                        <img src="img/galeria_4.png" alt="">
-                        <img src="img/galeria_5.png" alt="">
-                        <img src="img/galeria_6.png" alt="">
+                        <a href="img/galeria_1_gde.jpg" data-lightbox="toronto" data-title="Galeria de Toronto.">
+                                <img class="example-image" src="img/galeria_1.png" alt="" />
+                        </a>
+                        <a href="img/galeria_2_gde.jpg" data-lightbox="toronto" data-title="Galeria de Toronto.">
+                                <img class="example-image" src="img/galeria_2.png" alt="" />
+                        </a>
+                        <a href="img/galeria_3_gde.jpg" data-lightbox="toronto" data-title="Galeria de Toronto.">
+                                <img class="example-image" src="img/galeria_3.png" alt="" />
+                        </a>
+                        <a href="img/galeria_4_gde.jpg" data-lightbox="toronto" data-title="Galeria de Toronto.">
+                                <img class="example-image" src="img/galeria_4.png" alt="" />
+                        </a>
+                        <a href="img/galeria_5_gde.jpg" data-lightbox="toronto" data-title="Galeria de Toronto.">
+                                <img class="example-image" src="img/galeria_5.png" alt="" />
+                        </a>
+                        <a href="img/galeria_6_gde.jpg" data-lightbox="toronto" data-title="Galeria de Toronto.">
+                                <img class="example-image" src="img/galeria_6.png" alt="" />
+                        </a>
 
                 </section>
 
@@ -167,6 +185,8 @@
 
 
         <script src="js/vendor/jquery-2.1.0.min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script src="js/lightbox.js"></script>
         <script src="js/helper.js"></script>
         <script src="js/main.js"></script>
 

@@ -161,13 +161,14 @@ section.slider {
 section.slider img {
   width:100%;
 }
+
 div.queVisitar {
-  margin-top: 20px;
   background-color: #f0f0f0;
   padding: 30px 0;
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
+
 section.visitar .lugares{
     padding: 0 20px;
     float:left;
@@ -235,13 +236,17 @@ section.contenido {
   padding: 0 20px;
 }
 
+
+.videodestacado {
+  margin: 20px 0;
+}
 .informacion section{
   float:left;
 }
 .informacion aside {
   float: right;
   width: 100%;
-  font-size: 1.6em;
+  font-size: 1.8em;
   color: #666;
 }
 blockquote {
@@ -333,6 +338,12 @@ form.formulario textarea {
     -o-transform: scale(1.1);
     -moz-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+/** SLIDER **/
+
+ul.bxslider {
+  margin:0;
 }
 
 /* ==========================================================================
@@ -528,6 +539,7 @@ textarea[contenteditable] {
     nav.navegacion ul li a {
       padding: 0 10px;
       box-sizing: content-box;
+
     }
     section.galeria {
        width:33%;
@@ -557,7 +569,7 @@ textarea[contenteditable] {
       width:70%;
     }
     .informacion aside {
-      width:26%;
+      width:25%;
     }
 }
 
