@@ -1,4 +1,21 @@
 $(document).ready(function() {
+
+	MBP.scaleFix();
+
+	MBP.hideUrlBarOnLoad();
+
+	if ($(".mensaje").length > 0){
+	  new MBP.autogrow(document.getElementById('mensaje'), 14);
+	}
+
+    
+
+    MBP.enableActive();
+
+    MBP.preventZoom();
+
+    MBP.startupImage();
+
     $('.lugares a').on('touchstart touchend', function() {
         $(this).toggleClass('activo');
     });
@@ -7,7 +24,8 @@ $(document).ready(function() {
 	  $('.bxslider').bxSlider();
 	}
 
-	
-	$('#videodestacado').fitVids();
-    
+	if ($("#videodestacado").length > 0){
+	  $('#videodestacado').fitVids(); 
+	}
+
 });

@@ -289,7 +289,6 @@ p.textoContacto {
 }
 form.formulario {
   background-color: #f2f2f2;
-  width:80%;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
@@ -311,7 +310,6 @@ form.formulario label {
 form.formulario input {
     height: 30px;
     border-radius: 5px;border: none;
-    min-width: 230px; 
 }
 form.formulario textarea {
   height: 200px;
@@ -319,7 +317,16 @@ form.formulario textarea {
   border: none;
   width:100%;
 }
-
+form.formulario input.enviar {
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+  width:auto;
+  background-color: #a00622;
+  padding: 5px 20px;
+  color:#fff;
+  text-transform: uppercase;
+}
 
 
 /** ANIMACIONES **/
@@ -508,6 +515,9 @@ textarea[contenteditable] {
       float: left;
       width: 200px;
       margin-right: 20px;
+    }
+    form.formulario {
+      width:80%;
     }
     form.formulario input {
       width: 70%;
