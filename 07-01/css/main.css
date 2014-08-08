@@ -549,9 +549,14 @@ textarea[contenteditable] {
       margin-top: 0!important;
     }
     nav.navegacion ul li a {
-      padding: 0 10px;
+      padding: 5px 15px;
       box-sizing:border-box;
-
+      transition: all .3s ease-out;
+    }
+    nav.navegacion ul li a:hover {
+     background-color: white;
+     border-radius: 20px;
+     color:#a00622;
     }
     section.galeria {
        width:33%;
